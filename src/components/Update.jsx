@@ -28,9 +28,6 @@ const Update = () => {
     }
     const submitHandle = (e)=>{
         e.preventDefault();
-     //   console.log("cccccccccccc",singleData)
-       // dispatch(createUser(users))
-        //navigate('/read')
         dispatch(updateUser(singleData))
           navigate('/read')
        
